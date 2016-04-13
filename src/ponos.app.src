@@ -1,0 +1,8 @@
+{application, ponos, [
+        {description, ""},
+        {vsn, "rolling"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel,stdlib]},
+        {mod, {ponos_app, []}}
+]}.
